@@ -5729,7 +5729,7 @@ input.main-search-input::placeholder {
     height: 100%;
     content: "";
     top: 30px;
-    border-radius: 144px 144px 12px 12px;
+    /* border-radius: 144px 144px 12px 12px; */
     background: var(--white);
     box-shadow: 7px 11px 50px 52px rgb(2 8 66 / .03);
     height: initial
