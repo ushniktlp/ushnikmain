@@ -2485,6 +2485,7 @@ span {
 
 .footer-bottom .footer-wrapper .bottom-list li {
     color: black;
+    text-decoration: underline;
 }
 
 @media (max-width:1199px) {
