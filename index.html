@@ -181,7 +181,7 @@
         <div class="offcanvas__overlay"></div>
 
         <!-- Header Section Start -->
-        <header id="header-sticky" class=" header-1">
+        <header id="header-sticky" class=" header py-0" style="margin-bottom: 0px;">
             <div class="container custom-container-44">
                 <div class="mega-menu-wrapper">
                     <div class="header-main">
@@ -199,32 +199,32 @@
                                     <nav id="mobile-menu">
                                         <ul>
                                             <li class="active">
-                                                <a href="./">
+                                                <a href="./" style="color: #ffaa00;">
                                                     Home
                                                 </a>
                                             </li>
                                             <li class="has-dropdown">
-                                                <a href="./contact/">
+                                                <a href="./contact/" style="color: #ffaa00;">
                                                     Contact
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="./about/">
+                                                <a href="./about/" style="color: #ffaa00;">
                                                     About
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="./service/">
+                                                <a href="./service/" style="color: #ffaa00;">
                                                     Services
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="./jobs/">
+                                                <a href="./jobs/" style="color: #ffaa00;">
                                                     Jobs
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://ushnik.in/" target="_blank">
+                                                <a href="https://ushnik.in/" style="color: #ffaa00;" target="_blank">
                                                     Skill development
                                                 </a>
                                             </li>
@@ -232,11 +232,11 @@
                                     </nav>
                                 </div>
                             </div>
-                            <div class="contact-items">
+                            <div class="contact-items d-flex align-items-center">
                                 <div class="icon">
                                     <i class="fa-regular fa-phone"></i>
                                 </div>
-                                <div class="content">
+                                <div class="content d-flex align-items-center">
                                     <span>Phone:</span>
                                     <h6><a href="tel:+7702901217">+88 (09) 53 33 09</a></h6>
                                 </div>
@@ -273,7 +273,7 @@
          <!-- Hero Section Start -->
         <section class="hero-section fix">
             <div class="swiper hero-slider">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrappers">
                     <!-- <div class="swiper-slide">
                         <div class="hero-1 bg-cover" style="background-image: url('assets/img/hero/hero-01.jpg');">
                             <div class="circle-shape">
@@ -297,21 +297,21 @@
                     </div> -->
                     <div class="swiper-slide">
                         <div class="hero-1" style="position: relative; overflow: hidden;">
-                            <video autoplay loop muted playsinline style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
-                                <source src="https://res.cloudinary.com/dwru80srf/video/upload/v1765479369/250483_small_daf3zq.mp4" type="video/mp4">
-                            </video>
                             <!-- <div class="circle-shape">
                                 <img src="assets/img/hero/circle-shape.png" alt="img">
                             </div> -->
                             <div class="dot-circle">
                                 <img src="assets/img/hero/dot-circle.png" alt="img">
                             </div>
+                            <video autoplay loop muted playsinline style="position: absolute; top: 0; left: 0; width: 100%; height: auto;object-fit: cover; z-index: -1;">
+                                <source src="https://cdn.pixabay.com/video/2023/08/01/174087-850404742_large.mp4" type="video/mp4">
+                            </video>
                             <div class="container custom-container-44">
-                                <div class="row">
+                                <div class="row justify-content-end">
                                     <div class="col-lg-7">
-                                        <div class="hero-content">
-                                            <h1 data-animation="fadeInUp" data-delay="1.3s">AI at Work, Innovation in Action</h1>
-                                            <p data-animation="fadeInUp" data-delay="1.5s">At Ushnik Technologies, we are a team of experienced professionals dedicated to crafting innovative, results-driven digital solutions that elevate your business.</p>
+                                        <div class="hero-content text-end">
+                                            <h1 data-animation="fadeInUp" style="color: #ffaa00;" data-delay="1.3s">AI at Work, Innovation<br> in Action</h1>
+                                            <p data-animation="fadeInUp" class="h4 text-justify mt-5" data-delay="1.5s">Ushnik Technologies turns complex ideas into powerful products<br> with innovative digital solutions that fuel business growth.</p>
                                             <a href="./about/" class="theme-btn" data-animation="fadeInUp" data-delay="1.7s">More About Us<i class="fa-solid fa-arrow-right"></i></a>
                                         </div>
                                     </div>
@@ -400,11 +400,11 @@
         <div class="right-shape">
             <img src="assets/img/about/line-shape.png" alt="img">
         </div>
-        <div class="container">
+        <div class="container custom-container-44">
             <div class="about-wrapper">
-                <div class="row g-4 align-items-center">
-                    <div class="col-lg-6">
-                        <div class="about-image">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <div class="about-image p-0">
                             <img src="https://res.cloudinary.com/dwru80srf/image/upload/v1766119620/nld0r1znxkqxrf5g0kbr2zftpjsp76lvnn4df837px59m9vzgzy0s1gqdr8sgbb66vvyp3mf4gl3sgq04A520s74w9grxs5zvhj26wsggs3qk4373ch934psh3ks4tqm1s91c251m0An1yjvymt775h2jrp4Av5tppvrg4A72xptf4hc58hq_eoea4l.jpg" alt="img" class="img-custom-anim-left wow" data-wow-delay=".3s" loading="lazy">
                             <!-- <div class="about-image-2 float-bob-x">
                                 <img src="assets/img/about/02.png" alt="img">
@@ -414,8 +414,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="about-content">
+                    <div class="col-lg-7 p-0">
+                        <div class="about-content p-3">
                             <div class="section-title">
                                 <span class="style-2 wow fadeInUp">About Our Company</span>
                                 <h2 class="wow fadeInUp" data-wow-delay=".3s">Partner with us for <br> Unmatched IT Services</h2>
@@ -672,27 +672,11 @@
                                 
                                 
                              </div>
-                                <div class="side-bar wow fadeInUp" data-wow-delay=".3s">
-                                <p>
-                                    “Revolutionizing Digital Engineering with Agentic AI” 
-                                </p>
-                                </div>
                                 <div class="choose-us-button wow fadeInUp" data-wow-delay=".5s">
                                 <a href="./contact/" class="theme-btn">Contact Us<i class="fa-solid fa-arrow-right"></i></a>
                                 <div class="client-item">
-                                    <div class="client-image">
-                                        <img src="assets/img/choose-us/client.png" alt="img">
-                                        <div class="icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
-                                                <path d="M0 13.1428H4.92857L1.64283 19.7142H6.5714L9.85713 13.1428V3.28564H0V13.1428Z" fill="#0095FF"/>
-                                                <path d="M13.1429 3.28564V13.1428H18.0714L14.7857 19.7142H19.7143L23 13.1428V3.28564H13.1429Z" fill="#0095FF"/>
-                                                </svg>
-                                        </div>
-                                    </div>
                                     <div class="content">
-                                        <p>B  Bala
-                                        </p>
-                                        <h4>+91 7702901217</h4>
+                                        <h4 class="d-flex">+91 7702901217</h4>
                                     </div>
                                 </div>
                              </div>
@@ -700,7 +684,10 @@
                     </div>
                     <div class="col-xl-6 col-lg-6">
                         <div class="choose-us-image">
-                            <img src="https://res.cloudinary.com/dwru80srf/image/upload/v1766119534/wzn1hxrz81d6986mn3xwfpvg2vs57A621q6v7dlmAhl81g13jq7hpj9s91hf6070gqhkpdm9vgby79xc9w8y60b40w7wA6cl6n81Akzv0rncblAp9rd4vg3fkjArfff3nr0z379AAv4nmqpysrc57vxcpm37z1q17mk4kv8kdj8s3ym0t2k1_rbspxx.jpg" alt="img" loading="lazy" class="img-custom-anim-right wow" data-wow-delay=".3s">
+                            <video autoplay loop muted playsinline style="position: absolute; top: 0; left: 0; width: 100%; height: auto;object-fit: cover; z-index: -1;">
+                                <source src="https://cdn.pixabay.com/video/2023/08/01/174086-850404739_large.mp4" type="video/mp4">
+                            </video>
+                            <!-- <img src="https://res.cloudinary.com/dwru80srf/image/upload/v1766119534/wzn1hxrz81d6986mn3xwfpvg2vs57A621q6v7dlmAhl81g13jq7hpj9s91hf6070gqhkpdm9vgby79xc9w8y60b40w7wA6cl6n81Akzv0rncblAp9rd4vg3fkjArfff3nr0z379AAv4nmqpysrc57vxcpm37z1q17mk4kv8kdj8s3ym0t2k1_rbspxx.jpg" alt="img" loading="lazy" class="img-custom-anim-right wow" data-wow-delay=".3s"> -->
                             <!-- <div class="choose-us-image2">
                                 <img src="assets/img/close-up-young-colleagues-having-meeting-removebg-preview.png" alt="img" class="img-custom-anim-top wow" data-wow-delay=".3s">
                             </div> -->
@@ -715,6 +702,7 @@
                                     </h5>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -722,24 +710,6 @@
         </div>
         </section>
         
-        <!-- Cta Video Section Start -->
-        <div class="cta-video-section fix">
-            <div class="container">
-                <div class="cta-video-wrapper bg-cover" style="background-image: url('assets/img/cta/01-video.jpg');">
-                    <a href="" data-animation="slideInRight" data-duration="2s" data-delay=".7s" class="video-btn ripple video-popup">
-                    <i class="fa-duotone fa-play"></i></a>
-                    <div class="left-shape">
-                        <img src="assets/img/cta/shape1.png" alt="img">
-                    </div>
-                    <div class="right-shape">
-                        <img src="assets/img/cta/shape2.png" alt="img">
-                    </div>
-                    <div class="dot-shape">
-                        <img src="assets/img/cta/dot.png" alt="img">
-                    </div>
-                </div> 
-            </div>
-        </div>
 
         <!-- Project Section Start -->
         <section class="project-section section-padding section-bg fix">
@@ -756,28 +726,20 @@
         </section>
 
         <!-- funfact Section Start -->
-        <!-- <section class="funfact-section fix">
+        <section class="funfact-section fix">
         <div class="container">
             <div class="funfact-wrapper bg-cover" style="background-image: url(assets/img/funfact/bg.jp);">
-                <div class="funfact-content">
+                <!-- <div class="funfact-content">
                     <div class="section-title mb-0">
-                        <!-- <span class="wow fadeInUp">Our Fun Facts</span> -->
+                        <span class="wow fadeInUp">Our Fun Facts</span>
                         <h2 class="text-white wow fadeInUp" data-wow-delay=".3s">To Make Requests for <br>
                             Further Information
                         </h2>
                     </div>
-                </div>
+                </div> -->
                 <div class="funfact-wrap">
-                    <div class="funfact-main-item">
-                        <div class="funfact-item wow fadeInUp" data-wow-delay=".3s">
-                            <div class="icon">
-                                <img src="assets/img/icon/icon1.svg" alt="img">
-                            </div>
-                            <div class="content">
-                                <h2><span class="count">50</span></h2>
-                                <p>Happy Clients</p>
-                            </div>
-                        </div>
+                    <div class="funfact-main-item justify-content-between">
+                        
                         <div class="funfact-item wow fadeInUp" data-wow-delay=".5s">
                             <div class="icon">
                                 <img src="assets/img/icon/icon2.svg" alt="img">
@@ -787,8 +749,6 @@
                                 <p>Experience</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="funfact-main-item mb-0">
                         <div class="funfact-item wow fadeInUp" data-wow-delay=".3s">
                             <div class="icon">
                                 <img src="assets/img/icon/icon3.svg" alt="img">
@@ -804,14 +764,14 @@
                             </div>
                             <div class="content">
                                 <h2><span class="count">50</span>+</h2>
-                                <p>Project Completed</p>
+                                <p>Solutions Delivered</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        </section> -->
+        <!-- </section> -->
 
  <!-- Contact Us Section Start -->
  <section class="contact-section section-padding">
